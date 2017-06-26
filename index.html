@@ -11,10 +11,28 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </head>
 <body>
+	<header class="">
+		<h1>Hangman</h1>
+	</header>
 	
+	<p id="GuessWord"></p>
+
+		<div class="main-container">
+			<section id="hangmangame">
+				<div id="guessesRemain">
+					<p>Number of guesses remaining:</p>
+				</div>
+				<div id="alreadyGuessed">
+					<p>Letters already guessed:</p>
+				</div>
+				<div id="Retry">
+					<button>Retry</button>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
